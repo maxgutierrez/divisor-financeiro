@@ -2,17 +2,29 @@
 	margin: 0;
 	padding: 0;
 }
-body {
-	background :white;
+body{
+	font-family: sans-serif;
+	color: #ffff;
+}
+.bg {
+	position: relative;
+	background-image: url("../img/x.png");
+	background-attachment: fixed;
+	/* background-repeat: no-repeat; */
+	/* opacity: 0.0; */
 }
 form {
-	background: #1AD3FF;
+	background: #2e7083;
 	max-width: 280px;
 	margin: 15px auto;
-	
+	padding-top: 10px;
+
 	width: 100%;
 	text-align: center;
 	border-radius: 5px;
+}
+.categorias {
+	padding-top: 10px;
 }
 form h2, form p {
 	margin-top: 10px;
@@ -29,7 +41,7 @@ button {
 	border: none;
 }
 #content {
-	background: #1AD3FF;
+	background: #2e7083;
 	margin: 0 auto;
 	padding: 5px;
 	max-width: 270px;
@@ -42,5 +54,5 @@ button {
 	text-align: center;
 	
 	border-radius: 5px;
-	background: #39B8FF;
+	background: #041824;
 }

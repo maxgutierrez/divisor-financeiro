@@ -8,9 +8,9 @@ const list = [
 	{ name:"Educação", percent:0.1, value:0 },
 	{ name:"Lazer", percent:0.1, value:0 },
 
-	{ name:"Liberdade financeira", percent:0.1, value:0 },
-	{ name:"Objetivos cm", percent:0.1, value:0 },
-	{ name:"Reserva/Oportunidades", percent:0.1, value:0 },
+	{ name:"Liberdade financeira", percent:0.15, value:0 },
+	{ name:"Objetivos cm", percent:0.15, value:0 },
+	// { name:"Reserva/Oportunidades", percent:0.1, value:0 },
 ]
 
 const calcular = (event)=>{
